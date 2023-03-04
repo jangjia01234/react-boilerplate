@@ -4,9 +4,9 @@ import "./styles/theme.css";
 
 import Home from "./pages/Home";
 
-function App() {
+function Router() {
   return (
-    <div className="App">
+    <div className="Router">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Router;
