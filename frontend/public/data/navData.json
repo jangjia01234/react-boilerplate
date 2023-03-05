@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "menu": "NEW RELEASES",
+    "url": "/men"
+  },
+  {
+    "id": 2,
+    "menu": "MEN",
+    "url": "/men"
+  },
+  {
+    "id": 3,
+    "menu": "WOMEN",
+    "url": "/men"
+  },
+  {
+    "id": 4,
+    "menu": "KIDS",
+    "url": "/men"
+  }
+]

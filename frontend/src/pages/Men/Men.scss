@@ -1,0 +1,48 @@
+.men {
+  overflow: hidden;
+
+  .menBox {
+    display: flex;
+    margin: 150px 0 100px 0;
+
+    .filter {
+      width: 200px;
+      margin: 0 80px;
+
+      h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .productList {
+      margin: 50px 50px 0 0;
+      width: 100%;
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+
+      .productBox {
+        height: 480px;
+
+        .productImg {
+          height: 80%;
+          background-color: #f5f5f5;
+        }
+
+        .productBoxText {
+          margin-top: 20px;
+
+          .productName {
+            margin-bottom: 10px;
+          }
+
+          .productPrice {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
